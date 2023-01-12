@@ -1,13 +1,17 @@
 # OCSPーAPI
  
-証明書管理画面（https://github.com/Tasuku-Sasaki-lab/Verify-Admin）と同じDBに接続し、証明書の状態を返すOCSPレスポンダとOCSPクライアント
+証明書管理画面（https://github.com/Tasuku-Sasaki-lab/Verify-Admin) と同じDBに接続し、証明書の状態を返す
  
-"hoge"が何かを簡潔に紹介する
  
  
 # Features
  
 OCSP（ RFC6960)に準拠。
+server.py がサーバー側
+client.py がクライアント側
+
+サーバー側を立ち上げておいて、外部プログラムからクライアント側を呼び出すことを想定している。
+クライアントは、OCSPResponse　もしくは、エラーを外部プログラムに返す
  
 # Requirement
  
