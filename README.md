@@ -1,4 +1,4 @@
-# OCSPーAPI
+# OCSP-API
  
 証明書管理画面（https://github.com/Tasuku-Sasaki-lab/Verify-Admin) と同じDBに接続し、証明書の状態を返す
  
